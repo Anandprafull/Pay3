@@ -26,3 +26,11 @@ To get a local copy up and running follow these simple steps.
 - Node.js
 - PostgreSQL
 - Solana CLI
+
+
+## Contributors
+
+🌟 A huge thank you to the incredible individuals who have generously contributed their time, effort, and expertise to make this project a reality! Your support means the world to us, and we couldn't have done it without you. 🙌🎉
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
