@@ -104,3 +104,5 @@ We welcome contributions to Pay3! If you have any cool features you'd like to im
 
 We appreciate the contributions from our community! Check out the list of all contributors to this project on
 
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
