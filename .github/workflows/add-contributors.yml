@@ -1,0 +1,24 @@
+name: Add Contributors
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    contrib-readme-job:
+        runs-on: ubuntu-latest
+        name: Contributors List
+        permissions:
+          contents: write
+          pull-requests: write
+        steps:
+            - name: Contribute List
+              uses: akhilmhdh/contributors-readme-action@v2.3.10
+              with:
+                commit_message: Update Contributors List
+                committer_username: yashksaini-coder
+                committer_email: 115717039+yashksaini-coder@users.noreply.github.com
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
